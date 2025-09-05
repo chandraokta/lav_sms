@@ -1,0 +1,30 @@
+.exam-table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+/* Add padding to data tables to prevent content from touching edges */
+.table-responsive.p-2 {
+    padding: 0.75rem !important;
+}
+
+.table.datatable-button-html5-columns th,
+.table.datatable-button-html5-columns td {
+    padding: 0.75rem !important;
+}
+
+/* Additional spacing for better visual appearance */
+.table.datatable-button-html5-columns {
+    margin-bottom: 0 !important;
+}
+
+/* Ensure proper spacing for checkbox columns */
+.table.datatable-button-html5-columns th:first-child,
+.table.datatable-button-html5-columns td:first-child {
+    padding-left: 1rem !important;
+}
+
+.table.datatable-button-html5-columns th:last-child,
+.table.datatable-button-html5-columns td:last-child {
+    padding-right: 1rem !important;
+}
